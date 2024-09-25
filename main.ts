@@ -3,6 +3,12 @@ const url = "https://pokeapi.co/api/v2/pokemon/";
 const buscaPoke = () => {
     const nome = document.querySelector
 
+    sendByFetch(nome).then((obj) => {
+        if(obj && obj.data){
+            
+        }
+    })
+
 }
 
 const sendByFetch = async (pokeName) => {
